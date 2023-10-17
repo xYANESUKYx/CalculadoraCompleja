@@ -117,8 +117,8 @@ public class Calculadora extends Application{
 		break;
 		case "-":
 			s.set("  -  ");
-			r1.bind(a.subtract(b));
-			r2.bind(c.subtract(d));
+			r1.bind(a.subtract(c));
+			r2.bind(b.subtract(d));
 		break;
 		case "x":
 			s.set("  x  ");
